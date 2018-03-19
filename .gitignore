@@ -183,3 +183,7 @@ pip-selfcheck.json
 
 
 # End of https://www.gitignore.io/api/python,pycharm,virtualenv
+
+
+src/ch4/mnist
+lang_plot.png
