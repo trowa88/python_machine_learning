@@ -187,3 +187,7 @@ pip-selfcheck.json
 
 src/ch4/mnist
 lang_plot.png
+BEXX0003.txt
+src/ch5/log_dir
+src/ch5/mnist
+src/ch6/newstext
