@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-x_data = [1, 2, 3]
+x_data = [1., 2., 3.]
 y_data = [1, 2, 3]
 
 # try to find values for w and b that compute y_data = W * x_data + b
@@ -8,7 +8,7 @@ W = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 b = tf.Variable(tf.random_uniform([1], -1.0, 1.0))
 
 # my hypothesis
-hypothesis = W * x_data + b
+hypothesis = tf.multiply(W, x_data) + b
 
 # Simplified cost function
 cost = tf.reduce_mean(tf.square(hypothesis - y_data))
